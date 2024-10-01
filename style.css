@@ -59,7 +59,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 0;
     top: 0; /* Align it to the top of the viewport */
     width: 100%;
     position: fixed;
@@ -160,6 +160,7 @@ body {
 #list-item{
     display:none;
     cursor: pointer;
+    margin: 0;
 }
 
 .hamburger {
@@ -170,7 +171,7 @@ body {
 }
 
 .overlay {
-    height: 100%;
+    height: 200%;
     width: 200px; /* Adjust this width as needed */
     position: fixed;
     top: 0;
@@ -1057,6 +1058,7 @@ background-color: black;
         margin-top: 9px;
         margin-left: 17px;
         height: 50px;
+
     }
     .moon{
         display: none;
@@ -1070,11 +1072,11 @@ background-color: black;
     #list-item{
         display:inline-block;
         height:26px;
-        margin-top: 9px;
+        margin-top: 0px;
         margin-left: 5px;
-        height: 30px;
+        height: 26px;
         margin-left: 9px;
-    }
+        }
 
     .nav-line{
         width: 90%;
@@ -1091,9 +1093,6 @@ background-color: black;
     }
 }
 @media (max-width: 480px){
-    .nav-bar{
-        /* background-color: brown; */
-    }
     .navs{
         display: none;
     }
@@ -1108,7 +1107,6 @@ background-color: black;
     }
     .logo{
         padding-top: 2px;
-        /* background-color: yellow; */
     }
     .dark{
         padding-top: 2px;
@@ -1124,6 +1122,7 @@ background-color: black;
         margin-left: 5px;
         height: 30px;
         margin-left: 9px;
+        padding-top: 0px;
         /* background-color: purple; */
     }
     .overlay {
